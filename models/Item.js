@@ -30,6 +30,10 @@ const itemSchema = new mongoose.Schema(
   type: String,
   default: "available",
 },
+location: {
+  type: String,
+  default: "Current location",
+},
   },
   { timestamps: true }
 );
